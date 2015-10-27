@@ -34,6 +34,9 @@
         "contao-community-alliance/composer-plugin": "~2.0",
         "contao-community-alliance/dependency-container": "~1.8"
     },
+    "require-dev": {
+        "phpcq/all-tasks": "~1.0"
+    },
     "autoload": {
         "psr-4": {
             "ContaoBlackForest\\Modify\\Search\\Content\\": "src"
