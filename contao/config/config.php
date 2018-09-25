@@ -32,8 +32,9 @@ $GLOBALS['TL_HOOKS']['getSearchablePages'][] = array
 
 $GLOBALS['TL_EXTEND']['Module'][] = array
 (
-    'namespace' => 'ContaoBlackForestModifySearchContent',
-    'path'      => 'composer/vendor/contaoblackforest/contao-modify-search-content-db/src/Module/Module.php'
+    'namespace'  => 'ContaoBlackForestModifySearchContent',
+    'path'       => 'composer/vendor/contaoblackforest/contao-modify-search-content-db/src/Module/Module.php',
+    'isAbstract' => true
 );
 
 
